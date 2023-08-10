@@ -3,7 +3,6 @@ import {ScrollView, Text, View, StyleSheet} from 'react-native';
 
 export default function SinglePost({route}) {
   const {data} = route.params;
-  //   console.log('data', data);
 
   return (
     <ScrollView style={styles.wrapper}>

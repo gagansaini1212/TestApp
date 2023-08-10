@@ -17,8 +17,6 @@ export default function Login() {
   const [password, onChangePassword] = useState('');
 
   const handleLogin = async () => {
-    console.log('i am working');
-
     try {
       const jsonValue = JSON.stringify(true);
       await AsyncStorage.setItem('isLoggedIn', jsonValue);
